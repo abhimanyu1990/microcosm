@@ -1,0 +1,7 @@
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid;
+    display: none;
+    border-bottom-color: #d8dbe0;
+}

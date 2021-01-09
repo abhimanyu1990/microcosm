@@ -20,8 +20,8 @@ const InfraChannel = React.lazy(() => import('./application/channel/InfraChannel
 const SuggestionChannel = React.lazy(() => import('./application/channel/SuggestionChannel'));
 
 const PolicyBoard = React.lazy(() => import('./application/policies/PolicyBoard'));
-const UserHome = React.lazy(() => import('./application/User/UserHome'));
-const UserAnalytics = React.lazy(() => import('./application/User/UserAnalytics'));
+const UserHome = React.lazy(() => import('./application/user/UserHome'));
+const UserAnalytics = React.lazy(() => import('./application/user/UserAnalytics'));
 
 
 
