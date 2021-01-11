@@ -1,1 +1,105 @@
 // Here you can add other styles
+.bg-primary {
+    background-color: #313131 !important;
+}
+
+.btn-primary {
+    color:#ffffff;
+    background-color: #313131 ;
+    border-color: #313131 ;
+
+}
+
+.btn-primary-light {
+    color:#313131;
+    background-color: #ced2d8;
+    border-color: #ced2d8;
+
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #3399ff;
+    text-decoration: none;
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    font-weight: 600;
+    color:#ffffff;
+    background-color: #313131 ;
+    border-color: #313131 ;
+}
+
+.card-header-action {
+    padding: 0 0.25rem;
+    color: #313131;
+}
+
+.card-header-action-danger {
+    padding: 0 0.25rem;
+    color: #ff0000;
+}
+
+//
+.custom-padding-top{
+    padding-top: 0.75rem;
+}
+
+.card-header-actions {
+    float: none !important;
+    margin-right: -0.25rem;
+}
+
+
+
+.btn-primary-light:hover, .btn-primary-light:focus, .open>.dropdown-toggle.btn-primary-light {
+    font-weight: 600;
+    color:#313131;
+    background-color: #ced2d8;
+    border-color: #ced2d8;
+}
+
+.c-icon {
+    width: 1.20rem !important;
+    height: 1.20rem !important;
+    display: inline-block;
+    color: inherit;
+    text-align: center;
+    fill: currentColor;
+    /* border: solid; */
+}
+
+.btn-dropdown-width {
+    width: 150px ;
+    
+}
+
+.input-daterangepicker {
+    width: 320px ;
+    color:  #000000;
+    border-color: #313131;
+}
+
+.search-top {
+    padding-top: 0.5rem;
+}
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid;
+    color: #313131 !important;
+    background-color: #fff;
+    border-color: #313131 !important;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

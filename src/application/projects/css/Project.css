@@ -5,3 +5,33 @@
     display: none;
     border-bottom-color: #d8dbe0;
 }
+
+.row-project-card {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-style: none;
+}
+
+.project-header {
+    font-weight: 600;
+}
+
+
+
+.row-header {
+    font-weight: 400;
+    color:#000000;
+    background-color: #d8dbe0 ;
+    border-color: #d8dbe0 ;
+}
+
+.col-text-align-right{
+    text-align: right;
+}
+
+.col-text-align-left{
+    text-align: left;
+}
+
+
+

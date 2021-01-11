@@ -4,22 +4,32 @@ import {
   CCardBody,
   CCardHeader,
   CCol,
-  CDataTable
+  CDataTable,
+  CRow
 } from  '@coreui/react'
 import usersData from '../../../views/users/UsersData'
+import ProjectSearchBar from './ProjectSearchForm';
 import ProjectCards from './ProjectCards';
 import '../css/Project.css'
+
 const fields = ['']
 
 
 const ProjectTable = () => {
   return (
     <>
+       
          <CCol>
           <CCard>
+         
             <CCardHeader>
+              <CRow>
               <CCol>
               <h3>Projects</h3>
+              </CCol>
+              </CRow>
+              <CCol>
+                <ProjectSearchBar />
               </CCol>
              
             </CCardHeader>
