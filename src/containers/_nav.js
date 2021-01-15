@@ -109,6 +109,11 @@ const _nav =  [
       },
       {
         _tag: 'CSidebarNavItem',
+        name: 'Project Task',
+        to: '/project/task',
+      },
+      {
+        _tag: 'CSidebarNavItem',
         name: 'Project Assessment',
         to: '/project/assessments',
       },

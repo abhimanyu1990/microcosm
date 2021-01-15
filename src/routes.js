@@ -22,7 +22,7 @@ const SuggestionChannel = React.lazy(() => import('./application/channel/Suggest
 const PolicyBoard = React.lazy(() => import('./application/policies/PolicyBoard'));
 const UserHome = React.lazy(() => import('./application/user/UserHome'));
 const UserAnalytics = React.lazy(() => import('./application/user/UserAnalytics'));
-
+const TaskBoard = React.lazy(() => import('./application/projects/TaskBoard') )
 
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
@@ -109,6 +109,7 @@ const routes = [
   { path: '/project/board', name: 'Project Boards', component: ProjectBoard },
   { path: '/project/assessments', name: 'Project Assessments', component: ProjectAssessment },
   { path: '/project/analytics', name: 'Project Analytics', component: ProjectAnalytics},
+  { path: '/project/task', name: 'Project Task', component: TaskBoard},
 
   { path: '/work/todo', name: 'ToDo', component: ToDo},
   { path: '/work/application', name: 'Applications', component: Application},
