@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Board from '../react-trello'
+import Board from './react-trello'
 
 //https://github.com/rcdexta/react-trello
 
